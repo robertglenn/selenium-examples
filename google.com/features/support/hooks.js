@@ -1,9 +1,5 @@
-const { defineSupportCode } = require('cucumber');
-
-defineSupportCode(function({After}) {
+const { After } = require('cucumber');
   
-  After(function () {
-    return this.driver.quit();
-  });
-
+After(function () {
+  return this.driver.quit();
 });

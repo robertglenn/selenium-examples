@@ -1,4 +1,4 @@
-const { defineSupportCode } = require('cucumber');
+const { setWorldConstructor } = require('cucumber');
 const { Builder } = require('selenium-webdriver');
 
 var World = function World() {
@@ -7,6 +7,4 @@ var World = function World() {
 
 };
 
-defineSupportCode(function({setWorldConstructor}) {
-  setWorldConstructor(World);
-});
+setWorldConstructor(World);
