@@ -10,15 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
-    "chalk": "^2.3.1",
     "chromedriver": "^2.35.0",
     "cucumber": "^4.0.0",
-    "cucumber-html-reporter": "^4.0.1",
-    "cucumber-junit": "^1.7.1",
-    "eyes.selenium": "0.0.77",
-    "fs-plus": "^3.0.2",
-    "merge": "^1.2.0",
-    "require-dir": "^1.0.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
