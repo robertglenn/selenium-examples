@@ -7,4 +7,9 @@ Automated behavior tests replaces the vast majority of manual User Acceptance Te
 # Purpose of this repo
 I personally have trouble finding useful examples (beyond 'hello world' or snippets) of behavior tests.
 
-I hope to provide real-world examples of behavior tests for popular websites to better showcase how to write behavior tests.
+There are definitedly some great resources out there that build off of selenium-webdriver, but many of them include other third-party libraries (which, at best, obscures behavior).
+
+I hope to provide real-world examples of behavior tests for popular websites to better showcase how to write behavior tests with as few "magic" libraries as possible.
+
+# Shout outs
+* I'm using [Matt-B/cucumber-js-selenium-webdriver-example](https://github.com/Matt-B/cucumber-js-selenium-webdriver-example) heavily as an example, at least to get off the ground.
