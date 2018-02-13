@@ -1,5 +1,7 @@
 # Automated Behavior Testing
-Automated behavior tests replaces the vast majority of manual User Acceptance Testing for the web, by simulating user interactions with a web page.
+Automated behavior testing replaces the vast majority of manual user acceptance testing (UAT) for the web, by simulating a user's interactions with a web page.
+
+##### Useful Links
 * [Cucumber](https://cucumber.io/) - "automated acceptance tests written in a behavior-driven development (BDD) style" (from [Wikipedia](https://en.wikipedia.org/wiki/Cucumber_(software)))
 * [Selenium](http://www.seleniumhq.org/) - "a portable software-testing framework for web applications" (from [Wikipedia](https://en.wikipedia.org/wiki/Selenium_(software)))
 * Check out the [Webdriver Javascript API](https://seleniumhq.github.io/selenium/docs/api/javascript/index.html)
