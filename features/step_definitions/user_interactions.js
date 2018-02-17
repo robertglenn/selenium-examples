@@ -36,4 +36,4 @@ exports.hitReturnOnElementByID = (elementId, driver) => {
   return driver.wait(until.elementLocated(By.id('lst-ib')), SELENIUM_TIMEOUT).then((element) => {
     return element.sendKeys(Key.ENTER);
   });
-}
+};
