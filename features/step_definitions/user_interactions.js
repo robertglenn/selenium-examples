@@ -28,7 +28,6 @@ exports.verifyAllTextOnElementByCSS = (elementSelector, arrayOfTextToCheck, driv
       arrayOfTextToCheck.forEach((textToCheck) => {
         expect(cleanElementText).to.have.string(textToCheck);
       });
-      // expect(elementText.toLocaleLowerCase()).to.have.string(textToCheck);
     });
   });
 };

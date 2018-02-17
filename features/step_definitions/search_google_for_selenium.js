@@ -2,7 +2,6 @@ const { Given, When, Then } = require('cucumber');
 const { expect } = require('chai');
 const { By, until, Key } = require('selenium-webdriver');
 
-
 const SELENIUM_TIMEOUT = 5 * 1000;
 
 Given('I am on the google home page - one', function () {
