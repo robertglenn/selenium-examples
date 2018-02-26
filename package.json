@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cucumber-js",
     "pretest": "npm run clean && npm run lint && npm run compile",
-    "clean": "rm features/step_definitions/*.js && rm features/support/*.js",
+    "clean": "(rm features/step_definitions/*.js && rm features/support/*.js) || echo no javascript files",
     "compile": "tsc features/**/*.ts",
     "lint": "tslint features/**/*.ts"
   },
