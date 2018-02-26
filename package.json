@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "lint": "eslint features/**/*.js"
+    "pretest": "npm run clean && npm run lint && npm run compile",
+    "clean": "rm features/step_definitions/*.js && rm features/support/*.js",
+    "compile": "tsc features/**/*.ts",
+    "lint": "tslint features/**/*.ts"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +16,8 @@
     "chai": "^4.1.2",
     "chromedriver": "^2.35.0",
     "cucumber": "^4.0.0",
-    "eslint": "^4.18.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
   }
 }

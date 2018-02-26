@@ -1,3 +1,5 @@
+# Typescript version
+
 # Purpose of this repo
 I personally have trouble finding useful examples (beyond 'hello world' or snippets) of behavior tests.
 
@@ -6,6 +8,7 @@ There are definitedly some great resources out there that build off of selenium-
 I hope to provide real-world examples of behavior tests for popular websites to better showcase how to write behavior tests with as few "magic" libraries as possible.
 
 ## How To Run:
+* `npm install`
 * `npm test`
 
 # Automated Behavior Testing

@@ -1,5 +1,5 @@
-const { After } = require('cucumber');
-  
+import { After } from 'cucumber';
+
 After(function () {
   return this.driver.quit();
 });
