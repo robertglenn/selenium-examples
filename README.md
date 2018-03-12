@@ -35,7 +35,7 @@ Regression tests are somewhat the opposite. They commonly encode the "expected b
 I would say these tests are really one in the same, simply viewed thru different lenses of purpose. Probably, the former is thought of more in the "green field" (or new codebase) space, whereas the latter might be more in the so-called "brown field" (legacy codebase) space.
 
 #### Selenium IDE
-The (Selenium IDE)[https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/] plugin for Firefox is also certainly worth mentioning. I find the tool is ideal for preparing a migration from one front-end web technology to another (including beyond simply one JavaScript view library to another), when an adequate test suite is unavailable. It's also highly worth considering if you are attempting to introduce behavior tests for the first time.
+The [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/) plugin for Firefox is also certainly worth mentioning. I find the tool is ideal for preparing a migration from one front-end web technology to another (including beyond simply one JavaScript view library to another), when an adequate test suite is unavailable. It's also highly worth considering if you are attempting to introduce behavior tests for the first time.
 
 With the plugin, you can record interactions with a live web page, and then export the scenarios into a selection of popular languages. Beyond the obvious benefits gained from these recordings (i.e. having tests), the resulting test code may also obviate some weirdness in your page's DOM topology (e.g. elements found by long css selectors), which may be worth addressing to promote consistency and simplicity.
 
