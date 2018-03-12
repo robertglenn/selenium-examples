@@ -5,7 +5,7 @@ There are definitedly some great resources out there that build off of selenium-
 
 I hope to provide real-world examples of behavior tests for popular websites to better showcase how to write behavior tests with as few "magic" libraries as possible.
 
-## How To Run:
+# How To Run:
 * `npm install`
 * `npm test`
 
